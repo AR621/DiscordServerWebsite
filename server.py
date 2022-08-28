@@ -11,7 +11,7 @@ def index():
 
     return render_template("index.html")
 
+
 # Run the server
 if __name__ == '__main__':
-    app.run(debug=False, host='0.0.0.0')
-
+    app.run(debug=False, host='88.199.63.212')
