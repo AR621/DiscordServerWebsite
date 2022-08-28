@@ -14,4 +14,4 @@ def index():
 
 # Run the server
 if __name__ == '__main__':
-    app.run(debug=False, host='88.199.63.212')
+    app.run(debug=False, host='0.0.0.0', port=2137)
