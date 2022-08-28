@@ -13,5 +13,9 @@ def index():
 
 
 # Run the server
+@app.route("/static/<path:path>")
+def static_dir(path):
+    return send_from_directory("static", path)
+    
 if __name__ == '__main__':
     app.run(debug=False, host='0.0.0.0', port=2137)
