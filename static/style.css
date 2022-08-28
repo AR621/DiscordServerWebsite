@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(235, 152, 52,0.3),rgba(235, 152, 52,0.3)),url(whitey.png);
+    background-image: linear-gradient(rgba(235, 152, 52,0.3),rgba(235, 152, 52,0.3)),url(/static/whitey.png);
     background-position: center;
     background-size: cover;
     position: relative;
