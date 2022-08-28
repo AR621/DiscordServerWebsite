@@ -1,48 +1,26 @@
-
-body {
-  background: #005005;
-  color: #555;
-  font-family: Montserrat, Arial, sans-serif;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.body-bg {
-  background: #F3F4FA !important;
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(235, 152, 52,0.3),rgba(235, 152, 52,0.3)),url(whitey.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+div {
+
+
 }
 
-h1, h2, h3, h4, h5, h6, strong {
-  font-weight: 600;
-}
+#tlo{
+     
+  width: 70%;
+  border: 15px solid green;
+  padding: 100px;
+  margin: auto;
 
-h1 {
-  color: #bcbbb4;
-}
-
-.content-area {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-.box {
-  background-color: #bcbbb4;
-  padding: 25px 25px; 
-  border-radius: 8px; 
-}
-
-.radialbox {
-  max-height: 333px;
-  margin-bottom: 60px;
-}
-
-.apexcharts-legend-series tspan:nth-child(3) {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.edit-on-codepen {
-  text-align: right;
-  width: 100%;
-  padding: 0 20px 40px;
-  position: relative;
-  top: -30px;
-  cursor: pointer;
 }
